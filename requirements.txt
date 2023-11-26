@@ -1,0 +1,6 @@
+nltk
+numpy
+beautifulSoup4
+requests
+keras
+tensorflow

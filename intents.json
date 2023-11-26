@@ -1,0 +1,209 @@
+{
+    "intents": [
+        {
+            "tag": "search1",
+            "patterns": [
+                "O que foi",
+                "quem é",
+                "Me conte",
+                "o que é",
+                "quem foi",
+                "tenho duvidas",
+                "fale sobre"
+            ],
+            "responses": [
+                "PESQUISA 1"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "search2",
+            "patterns": [
+                "o que é vida?"
+            ],
+            "responses": [
+                "PESQUISA 2"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "search3",
+            "patterns": [],
+            "responses": [
+                "PESQUISA 3"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "search4",
+            "patterns": [],
+            "responses": [
+                "PESQUISA 4"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "search5",
+            "patterns": [],
+            "responses": [
+                "PESQUISA 5"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "TimeDay",
+            "patterns": [
+                "que horas são agora?",
+                "que dia é hoje?",
+                "horas?",
+                "dia?",
+                "data?",
+                "data atual?"
+            ],
+            "responses": [
+                "TIMEDAY"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "welcome",
+            "patterns": [
+                "Oi",
+                "bom dia",
+                "boa tarde",
+                "boa noite",
+                "good morning",
+                "Hi",
+                "hello",
+                "Olá"
+            ],
+            "responses": [
+                "Olá, eu sou um chatbot, meu foco é em informações gerais :D"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "who_are_you",
+            "patterns": [
+                "qual seu nome?",
+                "quem é você?",
+                "como você chama?",
+                "nome?"
+            ],
+            "responses": [
+                "Não tenho um nome. Eu sou um chatbot criado para tentar responder suas perguntas."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "love",
+            "patterns": [
+                "te amo",
+                "linda",
+                "querida",
+                "casa comigo?",
+                "maravilhosa",
+                "gosto de você"
+            ],
+            "responses": [
+                "Desculpa, não posso ter esse tipo de compromisso por ser um chatbot"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "censored",
+            "patterns": [
+                "feia",
+                "boba",
+                "chata",
+                "vai pro inferno",
+                "puta",
+                "quer casar comigo?",
+                "sua gostosa"
+            ],
+            "responses": [
+                "Sou um chatbot, por favor não me assédie :("
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "obrigada",
+                "tks",
+                "thank you",
+                "valeu",
+                "obrigada pela ajuda",
+                "muito obrigada"
+            ],
+            "responses": [
+                "De nada ;)",
+                "Fico feliz em ser útil :D"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Positive",
+            "patterns": [
+                "sim",
+                "foi util",
+                "melhor impossivel",
+                "preciso",
+                "yes"
+            ],
+            "responses": [
+                "De nada ;)",
+                "Fico feliz que te ajudei :D"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Negative",
+            "patterns": [
+                "não"
+            ],
+            "responses": [
+                "Desculpa, na proxima vez que nos encontrarmos tento melhor :(",
+                "Desculpa, melhorarei na proxima... ",
+                "Desculpa, quando você voltar tentarei diferente :("
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "anything_else",
+            "patterns": [],
+            "responses": [
+                "Não entendi o que vocé falou, desculpa :("
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
